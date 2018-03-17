@@ -23,6 +23,6 @@ printf("Wpisz temperaturę w stopniach Kelvina:\n");
 scanf("%lf", &rankine);
 rankine = kelvin * 9.0/5.0;
 printf("%lf Kelvina to %lf Rankine\n", kelvin, rankine);
-    return 0;
     
-}
+    return 0;
+    }
