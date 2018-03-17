@@ -25,4 +25,4 @@ rankine = kelvin * 9.0/5.0;
 printf("%lf Kelvina to %lf Rankine\n", kelvin, rankine);
     
     return 0;
-    }
+}
