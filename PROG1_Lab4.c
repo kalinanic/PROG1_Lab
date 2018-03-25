@@ -16,8 +16,7 @@ int main()
         printf("Woda w temperaturze %lf stopni Celsjusza jest w stanie ciekłym.\n", temp);
     } if (temp >= 100) {
         printf("Woda w temperaturze %lf stopni Celsjusza jest w stanie gazowym.\n", temp);
-    }
-    if (temp <= 0) { 
+    } if (temp <= 0) { 
         printf("Woda w temperaturze %lf stopni Celsjusza jest w stanie stałym.\n", temp);
     }
 
