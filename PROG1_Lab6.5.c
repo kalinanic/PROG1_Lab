@@ -7,7 +7,7 @@ int main ()
       scanf ("%c", &warunek);
       printf ("RKO\n");
   } while (warunek == 't');
-  // warunek = getchar();
+  //warunek = getchar();
   char reakcja, oddychanie, AED;
   printf ("Czy reaguje?\n");
   scanf (" %c", &reakcja);
