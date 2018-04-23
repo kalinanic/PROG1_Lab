@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+//char warunek = 'y';
+ float centimeter=0, inch, foot;
+//while (warunek == 'y'){
+   
+    printf ("Wpisz wartość w centymetrach:\n");
+    scanf ("%f", &centimeter);
+    printf("%f",centimeter);
+    inch = 2.54;
+    printf ("%f centymetrów to %f cali\n", centimeter,centimeter/inch);
+    /*printf ("Czy chcesz dalej kontynuować obliczenia?\n");
+    scanf (" %c", &warunek);
+    printf ("Wpisz wartość w centymetrach:\n");
+    scanf (" %f", &centimeter);
+    foot = inch * 12;
+    printf ("%f centymetrów to %f stóp\n", centimeter, foot);
+    printf ("Czy chcesz dalej kontynuować obliczenia?\n");
+    scanf (" %c", &warunek);*/
+    // warunek = getchar ();
+//}
+    return 0;
+}
