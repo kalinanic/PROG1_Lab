@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+float MetertoYard(float meter){
+    float yard;
+    yard = meter/0.9144;
+    return yard;
+}
+
+float YardtoFoot(float yard){
+    float foot;
+    foot = 3.0*yard;
+    return foot;
+}
+
+int main()
+{
+    float lenght;
+    scanf("%f", &lenght);
+    printf("%.2f metrów to %.2f jardów\n", lenght, MetertoYard(lenght));
+    printf("%.2f jardów to %.2f stóp\n", lenght, YardtoFoot(lenght));
+    return 0;
+}
