@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    unsigned short int x, i, suma = 0;
+    printf("Wpisz liczbę naturalną z przedziału od 3 do 100.\n");
+    scanf("%d", &x);
+    if(x < 3 || x > 100){
+        printf("Wprowadzona liczba jest nieprawidłowa. Program zakończy działanie.\n");
+    }
+    for(i = 0; i <= x; i++){
+        printf("%d ", i);
+        suma = suma + i;
+    }
+    printf("\nSuma wynosi: %d", suma);
+    return 0;
+}
