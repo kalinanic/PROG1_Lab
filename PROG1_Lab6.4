@@ -1,0 +1,28 @@
+#include <stdio.h>
+#define KELVIN 273
+
+int main()
+{
+    char warunek = 'n';
+    while(warunek == 'n'){
+    float celsjusz, fahrenheit, kelvin, rankine;
+    printf("Wpisz temperaturę w stopniach Fahrenheita:\n");
+    scanf("%f", &fahrenheit);
+    celsjusz = 5.0 / 9.0 * (fahrenheit - 32);
+    printf("%.2f F to %.2f C.\n", fahrenheit, celsjusz);
+    printf("Wpisz temperaturę w stopniach Celsjusza:\n");
+    scanf("%f", &celsjusz);
+    kelvin = celsjusz + 273;
+    printf("%.2f C to %.2f K.\n", celsjusz, kelvin);
+    printf("Wpisz temperaturę w Kelvinach:\n");
+    scanf("%f", &kelvin);
+    rankine = kelvin * 9.0 / 5.0;
+    printf("%.2f K to %.2f R.\n", kelvin, rankine);
+    
+    printf("Czy chcesz kontynuować konwersje temperatur?\n");
+    scanf(" %c", &warunek);
+    warunek = getchar();
+}
+    printf("Program zakończył działanie.\n");
+    return 0;
+}
