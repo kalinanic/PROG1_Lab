@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+int wybor;
+float bar;
+float paskal;
+
+char warunek = 'n';
+while(warunek = 'y'){
+    printf("Wybierz 0 dla konwersji: bar - paskal / 1: dla konwersji paskal - bar:\n");
+    scanf("\n%d", &wybor);
+    printf("\nWpisz wartość do przeliczenia: ");
+    if(wybor == 0){
+        bar = 
+        printf("%.2f bar to %.2f Pa", bar, paskal);
+    }
+    else if(wybor == 1){
+        bar = 
+        printf("%.2f Pa to %.2f bar", bar, paskal);
+    }
+}
+printf("\nCzy chcesz kontynuować obliczenia? (Y/N):\n");
+scanf("%c", &warunek);
+if((warunek == 'n' || warunek == 'N')){
+    printf("Program zakończył działanie.\n");
+}
+    return 0;
+}
+
