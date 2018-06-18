@@ -83,7 +83,7 @@ max (int tab[], int rozmiar)
     printf ("Suma elementów tab1 to: %d\n", sum(tab1, rozmiar1));
     printf ("Najmniejszy element tab1 to: %d\n", min(tab1, rozmiar1));
     printf ("Największy element tab1 to: %d\n", max(tab1, rozmiar1));
-
+    tab2[i] = tab1[i] * tab2[i];
     i = 0;
     printf("\nFIFO tab2:\n");
     for(i = 0; i<rozmiar2; i++){
