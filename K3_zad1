@@ -68,6 +68,7 @@ max (int tab[], int rozmiar)
     for (i = 0; i < rozmiar1; i++)
       {
 	tab1[i] = rand () % range + 1;
+	tab2[i]=tab1[i]*tab1[i];
       }
     printf ("FIFO tab1: ");
     for (i = 0; i < rozmiar1; i++)
@@ -83,6 +84,7 @@ max (int tab[], int rozmiar)
     printf ("Suma elementów tab1 to: %d\n", sum(tab1, rozmiar1));
     printf ("Najmniejszy element tab1 to: %d\n", min(tab1, rozmiar1));
     printf ("Największy element tab1 to: %d\n", max(tab1, rozmiar1));
+    
     tab2[i] = tab1[i] * tab2[i];
     i = 0;
     printf("\nFIFO tab2:\n");
@@ -94,6 +96,7 @@ max (int tab[], int rozmiar)
     for(i = rozmiar2-1; i>-1 ; i--){
     printf("%d ", tab2[i]);
 }
+   
     printf ("\nRozmiar tab2 to: %d\n", rozmiar2);
     printf ("Suma elementów tab2 to: %d\n", sum(tab2, rozmiar2));
     printf ("Najmniejszy element tab2 to: %d\n", min(tab2, rozmiar2));
